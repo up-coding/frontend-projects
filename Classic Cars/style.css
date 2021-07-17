@@ -18,3 +18,35 @@ body {
   background-color: #ccc;
 }
 /*End of Common Styles*/
+
+/*Menu*/
+.menu {
+  width: 4rem;
+  height: 4rem;
+  background-color: red;
+  position: fixed;
+  top: 2rem;
+  left: 15vw;
+  z-index: 10;
+}
+/*End of Menu*/
+
+/*Navbar*/
+.navbar {
+  width: 15vw;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0 0 4rem;
+}
+/*End of Navbar*/
+
+/*Common section */
+.wrapper {
+  width: 100%;
+}
+/*End of Common section */
