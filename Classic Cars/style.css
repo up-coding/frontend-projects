@@ -12,10 +12,12 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: #ccc;
+  padding-right: 3rem;
 }
 /*End of Common Styles*/
 
@@ -27,7 +29,12 @@ body {
   position: fixed;
   top: 2rem;
   left: 2rem;
+  transition: left 0.5s;
   z-index: 10;
+}
+
+.menu.change {
+  left: 15vw;
 }
 /*End of Menu*/
 
@@ -42,7 +49,18 @@ body {
   display: flex;
   flex-direction: column;
   padding: 4rem 0 0 4rem;
+  transition: left 0.5s;
+
   z-index: 10;
+}
+
+.navbar.change {
+  left: 0;
+}
+
+.navbar-link {
+  font-size: 1.5rem;
+  margin: 2rem 0;
 }
 /*End of Navbar*/
 
@@ -59,8 +77,13 @@ section {
   position: relative;
   left: 0;
   margin-bottom: 3rem;
-  /* transform: rotateY(10deg); */
   transform-origin: left;
   box-shadow: 0.5rem 0.5rem 1rem #aaa;
+  transition: left 0.5s, transform 0.5s;
+}
+
+section.change {
+  left: 15vw;
+  transform: rotateY(10deg);
 }
 /*End of Common section */
