@@ -357,3 +357,65 @@ section.change {
   text-align: center;
 }
 /*End of Section 5*/
+
+/*Responsive */
+@media (max-width) {
+  .navbar {
+    width: 20vw;
+    padding: 2rem 0 0 2rem;
+    left: -20vw;
+  }
+
+  .menu.change {
+    left: 20vw;
+  }
+
+  section.change {
+    left: 20vw;
+    transform: rotateY(15deg);
+  }
+
+  .section-heading {
+    font-size: 7rem;
+  }
+
+  .section-1 {
+    justify-content: space-evenly;
+  }
+
+  .section-2 {
+    height: auto;
+    padding: 5rem 0 0 10rem;
+  }
+
+  .cards-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 40rem;
+    margin: 3rem;
+  }
+
+  .section-3 {
+    padding: 5rem 3rem;
+  }
+
+  .video {
+    width: 30%;
+    margin: 2rem;
+  }
+
+  .section-4 {
+    height: auto;
+  }
+
+  .gallery {
+    margin: 12rem 0;
+  }
+
+  .gallery-self {
+    width: 90%;
+  }
+}
+/*End of Responsive */
